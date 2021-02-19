@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Anime Ace';
+    src: url('AnimeAcev05.eot');
+    src: url('AnimeAcev05.eot?#iefix') format('embedded-opentype'),
+        url('AnimeAcev05.woff2') format('woff2'),
+        url('AnimeAcev05.woff') format('woff'),
+        url('AnimeAcev05.ttf') format('truetype'),
+        url('AnimeAcev05.svg#AnimeAcev05') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

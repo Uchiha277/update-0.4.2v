@@ -1,0 +1,118 @@
+@import "../fonts/stylesheet.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-decoration: none !important;
+  list-style: none !important;
+  background: #000;
+  font-family: 'Anime Ace';
+  text-align: center;
+}
+
+nav {
+  background: rgba(10, 10, 10, 0.987);
+}
+
+nav .navbar-nav .navbar-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+header{
+    background: radial-gradient(rgba(85,13,13,0.47942927170868344),black);
+    padding: 15px 0;
+}
+
+header h1{
+    color: #ececec;
+    margin: 25px auto;
+}
+
+header .row .col-xl-4 ul li{
+    list-style: none;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+header .row .col-xl-4 ul li a{
+    text-decoration: none;
+    color: #bdbdbd;
+    transition: 0.8s;
+}
+
+header .row .col-xl-4 ul li a:hover{
+    color: #BF1E2D;
+}
+
+section{
+  padding: 35px 0 25px;
+}
+
+.title{
+  color: #ececec;
+}
+
+.uchiha{
+  display: flex;
+  align-items: center;
+  margin: 0 15px 0 15px;
+}
+
+.uchiha img{
+  width: 300px;
+  background: radial-gradient(rgba(107, 14, 14, 0.527),black);
+}
+
+.also-item h3{
+  color: beige;
+  font-size: 38px;
+}
+
+.also-item p{
+  color: #918f8f;
+  background: radial-gradient(rgba(63, 8, 8, 0.637),black);
+}
+
+.uchiha:not(:last-child){
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 35px;
+    box-shadow: 0px -19px 28px -6px rgba(110,23,51,0.75);
+    margin-top: 20px;
+    }
+    
+    footer .left,
+    footer .right{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    footer .left a,
+    footer .right a{
+      color: beige;
+      text-decoration: none;
+      transition: 0.8s;
+    }
+    
+footer .left a:hover,
+footer .right a:hover{
+  color: #BF1E2D;
+}
